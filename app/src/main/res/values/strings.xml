@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Delivery</string>
+
+    <string-array name="status">
+        <item>All orders</item>
+        <item>New orders</item>
+        <item>Processing orders</item>
+        <item>Cancelled orders</item>
+        <item>Completed orders</item>
+    </string-array>
+</resources>

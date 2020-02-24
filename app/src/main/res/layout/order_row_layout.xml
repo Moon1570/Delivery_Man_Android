@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#06AF76"
+       >
+
+    <TextView
+        android:id="@+id/order_id"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:background="@color/foreground"
+        android:textColor="@color/background"
+        android:gravity="center"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="Moon"
+        android:textAppearance="?android:text"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:id="@+id/order_customer_name"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/order_id"
+        android:background="@color/foreground"
+        android:textColor="@color/background"
+        android:gravity="center"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="Moon"
+        android:textAppearance="?android:text"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:id="@+id/order_expected_date"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/order_customer_name"
+        android:background="@color/foreground"
+        android:textColor="@color/background"
+        android:gravity="center"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="Moon"
+        android:textAppearance="?android:text"
+        android:textSize="18dp"></TextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:outlineAmbientShadowColor="@android:color/black"
+        android:layout_below="@id/l1"
+        />
+
+</RelativeLayout>
